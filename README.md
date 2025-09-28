@@ -1,7 +1,40 @@
 # Projetos Acadêmicos – Análise e Desenvolvimento de Sistemas
-Projetos acadêmicos desenvolvidos ao longo da minha graduação em Análise e Desenvolvimento de Sistemas.
-Este repositório reúne todos os projetos desenvolvidos durante minha graduação em Análise e Desenvolvimento de Sistemas. Aqui você encontrará uma variedade de trabalhos práticos que refletem minha evolução no curso, abordando desde os fundamentos da programação até o desenvolvimento de sistemas completos.
 
-🚀 Objetivo
+Desafio Cartas Supertrunfo.
 
-Concentrar em um só lugar os projetos criados ao longo da graduação, servindo como um portfólio técnico e acadêmico. Cada projeto demonstra o aprendizado adquirido em diferentes disciplinas, com foco em boas práticas de desenvolvimento e resolução de problemas reais.
+Super Trunfo em C
+Este projeto é um jogo estilo Super Trunfo, desenvolvido em linguagem C, que permite cadastrar e comparar cartas com base em atributos definidos. O usuário escolhe qual atributo deseja usar para comparar as cartas, e o programa determina qual delas vence.
+
+Sobre o projeto
+O jogo permite:
+•	Cadastrar duas cartas com as seguintes informações:
+o	Estado (letra de A a H)
+o	Código (número de 1 a 4)
+o	Nome da cidade (com suporte a nomes com mais de uma palavra)
+o	População
+o	Pontos turísticos
+o	Área em km²
+o	PIB da cidade
+
+•	Calcular a densidade demográfica automaticamente (população / área)
+•	Escolher qual atributo usar na comparação das cartas
+•	Exibir a carta vencedora de acordo com o atributo escolhido
+
+Sobre o Menu do programa
+
+Após cadastrar as duas cartas, o programa exibirá o seguinte menu para você escolher o atributo que será usado na comparação:
+Escolha o atributo para comparar digitando de 1 a 5:
+1 - População
+2 - Área
+3 - PIB
+4 - Pontos turísticos
+5 - Densidade demográfica
+
+Regras de comparação
+
+População, Área, PIB e Pontos turísticos: vence quem tiver o maior valor
+Densidade demográfica: vence quem tiver o menor valor
+Empate: se os dois valores forem iguais, o programa mostrará "Empate!"
+
+
+
